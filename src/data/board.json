@@ -1,0 +1,54 @@
+[
+    {
+        "name" : "white-pawn",
+        "value" : 1,
+        "move" : 8
+    },
+    {
+        "name" : "white-rook",
+        "value" : 5
+
+    },
+    {
+        "name" : "white-knight",
+        "value" : 3,
+        "move" : [ 15, 17,-15,17]
+    },
+    {
+        "name" : "white-bishop",
+        "value" : 2
+    },
+    {
+        "name" : "white-queen",
+        "value" : 9
+    },
+    {
+        "name" : "white-king",
+        "value" : "K",
+        "move" : [ -1, 1,8,7,9,-8,-7,-9]
+    },
+    {
+        "name" : "black-pawn",
+        "value" : -1
+    },
+    {
+        "name" : "black-rook",
+        "value" : -5
+    },
+    {
+        "name" : "black-knight",
+        "value" : -3
+    },
+    {
+        "name" : "black-bishop",
+        "value" : -2
+    },
+    {
+        "name" : "black-queen",
+        "value" : -9
+    },
+    {
+        "name" : "black-king",
+        "value" : "-K"
+    }
+]
