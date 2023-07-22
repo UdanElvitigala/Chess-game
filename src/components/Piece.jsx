@@ -8,13 +8,13 @@ export default function Peice(props) {
         <div key={id}
              className={`${item.dark && "bg-secondary text-white"} ${item.canMove && "bg-warning"} ${item.selected && "bg-success border-primary"} d-flex justify-content-center align-items-center border border-2 fs-1`} 
             //  className={`${item.dark && "bg-secondary text-white border-secondary"} ${item.selected && "bg-success"} d-flex justify-content-center align-items-center border border-2 fs-1`} 
-             onClick={() => handleClick({id : id, value : Number(item.value) })}
+             onClick={() => handleClick({ x: item.x, y: item.y, value: Number(item.value), canMove: item.canMove })}
              style={{ 
              width : 100, 
              height : 100
         }}>
             
-            {/* <div className="text-dark fs-6 relative">{id}</div> */}
+            {/* <div className="text-dark fs-6 relative">{``}</div> */}
             {/* white characters image selection */}
                 {item.value == 1 && <img style={{ maxWidth : 75  }} src="./public/assets/white-pawn.png" />}
                 {item.value == 5 && <img style={{ maxWidth : 90  }} src="./public/assets/white-rook.png" />}
